@@ -1,5 +1,6 @@
 function iterateRecords(data) {
 	console.log("Data returned: "+JSON.stringify(data));
+	console.log("something else");
 	var records = data.result.records;
 	Object.entries(records).forEach(([key, value]) => {
 		var recordTitle = value["Title"];
